@@ -1,0 +1,183 @@
+/* ==========================================================================
+   Base and Reset Styles
+   ========================================================================== */
+
+   * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* ==========================================================================
+   Header Styles (Reutilizável em outras páginas)
+   ========================================================================== */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    color: #f5f5f5;
+}
+
+.logo {
+    width: 90px;
+    height: auto;
+}
+
+.navbar {
+    display: flex;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-link {
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    background-color: rgb(255, 204, 0);
+}
+
+.nav-link:hover {
+    background-color: rgba(255, 247, 0, 0.2);
+}
+
+/* ==========================================================================
+   Main Content Styles
+   ========================================================================== */
+
+.bg-light-gray {
+    background-color: #f5f5f5;
+}
+
+.color-dark {
+    color: #333;
+}
+
+.section-content {
+    padding: 40px;
+}
+
+/* ==========================================================================
+   Intro Section Styles
+   ========================================================================== */
+
+   .intro {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.intro p {
+    margin-bottom: 20px;
+}
+
+.intro li {
+    list-style-type: none;
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+.intro li:before {
+    content: '*';
+    position: absolute;
+    left: 0;
+}
+
+/* ==========================================================================
+   Market Data Section (Específico para esta página)
+   ========================================================================== */
+
+.market-data {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.market-data p {
+    margin-bottom: 20px;
+}
+
+.market-data li {
+    list-style-type: none;
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+.market-data li:before {
+    content: '*';
+    position: absolute;
+    left: 0;
+}
+
+/* ==========================================================================
+   News Section Styles (Específico para esta página)
+   ========================================================================== */
+
+.news {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.news p {
+    margin-bottom: 20px;
+}
+
+.news li {
+    list-style-type: none;
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+.news li:before {
+    content: '*';
+    position: absolute;
+    left: 0;
+}
+/* ==========================================================================
+   Footer Styles (Reutilizável em outras páginas)
+   ========================================================================== */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+/* ==========================================================================
+   Responsive Styles
+   ========================================================================== */
+
+@media (max-width: 768px) {
+    /* Adapte o design para dispositivos móveis aqui */
+    .header, .footer {
+        flex-direction: column;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+

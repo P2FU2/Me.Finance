@@ -1,0 +1,43 @@
+/* 
+===================================================================
+* * * * * * * * * * * 404 PAGE STYLES * * * * * * * * * * * 
+===================================================================
+*/
+
+/* Define o estilo padrão do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+    background-color: #f2f2f2;
+}
+
+/* Define o estilo do título principal */
+h1 {
+    font-size: 48px;
+    color: #404040;
+}
+
+/* Define o estilo do texto de descrição */
+p {
+    font-size: 18px;
+    color: #606060;
+}
+
+/* Define o estilo dos links */
+a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #ffd900;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+/* Define o estilo dos links quando o mouse está sobre eles */
+a:hover {
+    background-color: #e1c051;
+}

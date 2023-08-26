@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Metadata e título da página -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Me.Finance|Home</title>
+
+    <!-- Estilos e scripts da página -->
+    <link rel="stylesheet" type="text/css" href="/css/index.css">
+    <link rel="icon" href="/images/me.ico" type="image/meicon">
+    <script src="/views/script.js" defer></script>
+</head>
+
+<body class="bg-light-gray color-dark">
+    <!-- Cabeçalho da página -->
+    <header class="header flex flex-space-between flex-center bg-black-transparent">
+        <!-- Logotipo da empresa -->
+        <img src="/images/logo.jpeg" alt="Logo" class="logo">
+        <h1 class="color-white">ME. Finance</h1>
+        <!-- Barra de navegação -->
+        <nav class="navbar">
+            <ul class="nav-links flex no-list-style">
+                <li class="nav-item"><a href="/" class="nav-link color-white">Home</a></li>
+                <!-- Exibir opções baseadas no estado de autenticação do usuário -->
+                <% if (!isAuthenticated) { %>
+                    <li class="nav-item"><a href="/login" class="nav-link color-white">Login</a></li>
+                <% } else { %>
+                    <li class="nav-item"><a href="/logout" class="nav-link color-white">Logout</a></li>
+                    <li class="nav-item"><a href="/admin" class="nav-link color-white">Admin</a></li>
+                <% } %>
+                <li class="nav-item"><a href="/economy" class="nav-link color-white">Economy</a></li>
+            </ul>
+        </nav>
+
+        <!-- APIs Integrated -->
+        <div class="info color-white font-smaller">
+            <div id="location"></div>
+            <div id="weather"></div>
+            <div id="time"></div>
+        </div>
+    </header>
+
+    <!-- Stockdio scripts -->
+    <script>
+        if (typeof(stockdio_events) == "undefined") {
+            stockdio_events = true;
+            var stockdio_eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+            var stockdio_eventer = window[stockdio_eventMethod];
+            var stockdio_messageEvent = stockdio_eventMethod == "attachEvent" ? "onmessage" : "message";
+            stockdio_eventer(stockdio_messageEvent, function (e) {
+                if (typeof(e.data) != "undefined" && typeof(e.data.method) != "undefined") {
+                    eval(e.data.method);
+                }
+            },false);
+        }
+    </script>
+    <iframe id='st_6bed6aff939a47548fd090d99d99ba15' frameBorder='0' scrolling='no' width='100%' height='100%' src='https://api.stockdio.com/visualization/financial/charts/v1/Ticker?app-key=D084F93ECBBD46298ED211AEEDBC6049&symbols=AAPL;MSFT;AMZN;GOOGL;FB;BRK.B;TSLA;JPM&palette=Relief&layoutType=4&backgroundColor=000000&labelsColor=ffffff&onload=st_6bed6aff939a47548fd090d99d99ba15'></iframe>
+
+
+    <!-- Main section of the page -->
+    <main>
+        <!-- Introduction about the company -->
+        <section class="intro section-content">
+            <h2>Welcome to ME Finance</h2>
+
+            <p>ME Finance is a leading provider of consolidated financial data from various APIs. We offer a stunning visualization and manipulation</p>
+
+            <p>ME Finance is also an asset management company that manages the .ME fund. We are committed to maximizing alpha while controlling beta, ensuring a balanced approach to risk and reward. Our team of skilled professionals employs a variety of strategies to deliver consistent returns.</p>
+
+            <h3>Our Values</h3>
+            <ul>
+                <li>Integrity: We operate with the highest standards of honesty and ethics.</li>
+                <li>Excellence: We strive to deliver outstanding performance and service.</li>
+                <li>Innovation: We constantly seek new ways to add value for our clients.</li>
+                <li>Teamwork: We collaborate and share knowledge to achieve our goals.</li>
+            </ul>
+
+            <h3>Mission</h3>
+            <p>To provide our clients with superior investment returns through active management of high-quality assets.</p>
+
+            <h3>Vision</h3>
+            <p>To be recognized as a top-performing asset management company that delivers exceptional value to our clients and stakeholders.</p>
+
+            <h3>Fund Strategy</h3>
+            <p>Our fund strategy is a mix of several approaches to achieve the best results:</p>
+            <ul>
+                <li>Value Investing: We look for undervalued assets that have the potential to increase in value over time.</li>
+                <li>Growth Investing: We invest in companies that show above-average growth, even if the share price appears expensive in terms of metrics such as price-to-earnings ratio.</li>
+                <li>Momentum Investing: We look for trends in the market and buy securities that have been rising in price.</li>
+                <li>Short Selling: We sell securities that we believe are overpriced and buy them back at a lower price.</li>
+                <li>Asset Allocation: We spread our investments across different asset classes to manage risk and increase potential returns.</li>
+            </ul>
+        
+        </section>
+
+        <!-- Seção de dados do mercado financeiro -->
+        <section class="market-data section-content">
+            <h2>Market Data</h2>
+         
+            <p>Stay updated with the latest market data, including stock market indices, currency exchange rates, and commodity prices.</p>
+
+            <h3>History of the Financial Market</h3>
+            <p>The financial market has a rich history that dates back to ancient times. The first recorded financial markets were established in the Roman Republic, where people could buy and sell debt and ownership of companies. Over the centuries, financial markets have evolved and expanded, leading to the establishment of stock exchanges and other financial institutions.</p>
+
+            <h3>Major Stock Exchanges</h3>
+            <ul>
+                <li>NASDAQ: Founded in 1971, NASDAQ is the second-largest stock exchange in the world by market capitalization. It is known for its electronic trading platform and for being home to many technology companies.</li>
+                <li>IBOVESPA: Founded in 1890, IBOVESPA is the main stock exchange in Brazil. It is the largest stock exchange in Latin America and plays a crucial role in the Brazilian economy.</li>
+                <li>Luxembourg Stock Exchange: Founded in 1928, the Luxembourg Stock Exchange is one of the world's leading exchanges for international securities. It is known for its innovative approach to financial markets and its focus on sustainable finance.</li>
+            </ul>
+
+            <h3>Notable Investors and Their Strategies</h3>
+            <ul>
+                <li>Warren Buffett (1960s-present): Known as the "Oracle of Omaha," Warren Buffett is one of the most successful investors of all time. He follows a value investing strategy, buying undervalued companies and holding them for the long term.</li>
+                <li>George Soros (1970s-present): Known for his aggressive investment style, George Soros is famous for "breaking the Bank of England" by betting against the British pound in 1992. He uses a global macro strategy, making large bets on economic trends.</li>
+                <li>Peter Lynch (1970s-1990s): Peter Lynch is known for his remarkable track record as the manager of the Fidelity Magellan Fund. He followed a growth investing strategy, looking for companies with strong earnings growth.</li>
+                <li>Benjamin Graham (1920s-1950s): Often referred to as the "father of value investing," Benjamin Graham was a pioneer in the field of security analysis. He advocated for a disciplined approach to investing, focusing on the intrinsic value of companies.</li>
+            </ul>
+        </section>
+
+        <!-- Seção de notícias do mercado financeiro -->
+        <section class="news section-content">
+            <h2>Market News</h2>
+            <p>Get the latest news and insights from the financial world. Stay informed about the current trends and events that shape the market.</p>
+            <!-- Stockdio scripts -->
+            <script>
+                if (typeof(stockdio_events) == "undefined") {
+                    stockdio_events = true;
+                    var stockdio_eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+                    var stockdio_eventer = window[stockdio_eventMethod];
+                    var stockdio_messageEvent = stockdio_eventMethod == "attachEvent" ? "onmessage" : "message";
+                    stockdio_eventer(stockdio_messageEvent, function (e) {
+                        if (typeof(e.data) != "undefined" && typeof(e.data.method) != "undefined") {
+                            eval(e.data.method);
+                        }
+                    },false);
+                }
+            </script>
+            <iframe id='st_5ad99b4d4efe4e31b36fc0b59c26bd69' frameBorder='0' scrolling='no' width='100%' height='100%' src='https://api.stockdio.com/visualization/financial/charts/v1/EconomicNews?app-key=D084F93ECBBD46298ED211AEEDBC6049&language=English&imageWidth=80&imageHeight=80&maxItems=15&palette=Relief&backgroundColor=ffffff&newsTitleColor=000000&newsDescriptionColor=000000&newsDateTimeColor=000000&separatorColor=bdbdbd&onload=st_5ad99b4d4efe4e31b36fc0b59c26bd69'></iframe>
+        </section>
+    </main>
+
+    <!-- Rodapé da página -->
+    <footer class="footer flex flex-space-between flex-center bg-dark-gray color-white">
+        <!-- Informações de contato -->
+        <div class="contact">
+            <h3>Contact Us</h3>
+            <p>Email: contact@me.finance.com</p>
+            <p>Phone: +1 (123) 456-7890</p>
+        </div>
+        <!-- Links para redes sociais -->
+        <div class="social">
+            <h3>Follow Us</h3>
+            <p>Twitter: @MEFinance</p>
+            <p>LinkedIn: ME.Finance</p>
+        </div>
+    </footer>
+</body>
+
+</html>

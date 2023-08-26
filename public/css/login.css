@@ -1,0 +1,176 @@
+/* ==========================================================================
+   Base and Reset Styles
+   ========================================================================== */
+
+   * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* ==========================================================================
+   Header Styles (Reutilizável em outras páginas)
+   ========================================================================== */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    color: #f5f5f5;
+}
+
+.logo {
+    width: 90px;
+    height: auto;
+}
+
+.navbar {
+    display: flex;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-link {
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    background-color: rgb(255, 204, 0);
+}
+
+.nav-link:hover {
+    background-color: rgba(255, 204, 0, 0.512);
+}
+
+/* ==========================================================================
+   Main Content Styles
+   ========================================================================== */
+
+.bg-light-gray {
+    background-color: #f5f5f5;
+}
+
+.color-dark {
+    color: #333;
+}
+
+.section-content {
+    padding: 40px;
+}
+
+/* ==========================================================================
+   Login Section Styles
+   ========================================================================== */
+
+.center-align {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 60px;
+}
+
+.alert.alert-danger {
+    color: red;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form.flex {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form label {
+    margin-bottom: 10px;
+}
+
+form input[type="text"],
+form input[type="password"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+form input[type="submit"] {
+    padding: 10px 20px;
+    background-color: rgb(255, 204, 0);
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+form input[type="submit"]:hover {
+    background-color: rgba(255, 204, 0, 0.464);
+}
+
+.forgot-password {
+text-align: center;
+margin-top: 20px;
+}
+ .signup {
+    text-align: center;
+    margin-top: none;
+}
+
+.forgot-password-link, .signup-link {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 3px;
+    transition: background-color 0.3s;
+    color: aliceblue;
+    font-size: small;
+}
+
+.forgot-password-link:hover, .signup-link:hover {
+    background-color: rgba(88, 88, 88, 0.464);
+}
+
+
+/* ==========================================================================
+   Footer Styles (Reutilizável em outras páginas)
+   ========================================================================== */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+/* ==========================================================================
+   Responsive Styles
+   ========================================================================== */
+
+@media (max-width: 768px) {
+    /* Adapte o design para dispositivos móveis aqui */
+    .header, .footer {
+        flex-direction: column;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+}

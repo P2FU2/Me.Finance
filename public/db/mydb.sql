@@ -1,0 +1,9 @@
+CREATE DATABASE mydb;
+
+USE mydb;
+
+CREATE TABLE users (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    username VARCHAR(255) UNIQUE NOT NULL,
+    pass VARCHAR(255) NOT NULL
+);

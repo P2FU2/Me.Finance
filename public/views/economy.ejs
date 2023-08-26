@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata e título da página -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Me.Finance|Economy</title>
+    <!-- Estilos e scripts da página -->
+    <link rel="stylesheet" type="text/css" href="/css/economy.css">
+    <link rel="icon" href="/images/me.ico" type="image/meicon">
+    <script src="/views/script.js" defer></script>
+</head>
+<body class="bg-light-gray">
+
+    <header class="header">
+        <!-- Logotipo -->
+        <img src="/images/logo.jpeg" alt="Logo" class="logo">
+        <h1 class="color-white">ME. Finance</h1>
+        <!-- Barra de navegação -->
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
+                <!-- Exibir opções baseadas no estado de autenticação do usuário -->
+                <% if (!isAuthenticated) { %>
+                    <li class="nav-item"><a href="/login" class="nav-link">Login</a></li>
+                <% } else { %>
+                    <li class="nav-item"><a href="/logout" class="nav-link">Logout</a></li>
+                    <li class="nav-item"><a href="/admin" class="nav-link">Admin</a></li>
+                <% } %>
+                    <li class="nav-item"><a href="/economy" class="nav-link">Economy</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Stockdio scripts -->
+    <script>
+        if (typeof(stockdio_events) == "undefined") {
+            stockdio_events = true;
+            var stockdio_eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+            var stockdio_eventer = window[stockdio_eventMethod];
+            var stockdio_messageEvent = stockdio_eventMethod == "attachEvent" ? "onmessage" : "message";
+            stockdio_eventer(stockdio_messageEvent, function (e) {
+                if (typeof(e.data) != "undefined" && typeof(e.data.method) != "undefined") {
+                    eval(e.data.method);
+                }
+            },false);
+        }
+    </script>
+    <iframe id='st_6bed6aff939a47548fd090d99d99ba15' frameBorder='0' scrolling='no' width='100%' height='100%' src='https://api.stockdio.com/visualization/financial/charts/v1/Ticker?app-key=D084F93ECBBD46298ED211AEEDBC6049&symbols=AAPL;MSFT;AMZN;GOOGL;FB;BRK.B;TSLA;JPM&palette=Relief&layoutType=4&backgroundColor=000000&labelsColor=ffffff&onload=st_6bed6aff939a47548fd090d99d99ba15'></iframe>
+
+    <main>
+        <section class="economy-intro block-padding">
+            <h2 class="center-align color-dark">Economic Indicators</h2>
+            <p class="color-gray">Stay updated with the latest economic indicators that impact the financial market. We provide you with the most recent data, including tables and charts, to help you make informed investment decisions.</p>
+        </section>
+
+        <!-- Here you can add the tables and charts for the economic indicators -->
+        <section class="economy-data block-padding">
+            <!-- Add your widgets or charts here -->
+            <script type="text/javascript">DukascopyApplet = {"type":"economic_calendar_new","params":{"showHeader":false,"tableBorderColor":"#D92626","defaultTimezone":0,"defaultCountries":"c:AU,CA,CH,CN,EU,GB,JP,NZ,US,DE,FR,IT,ES","impacts":[1,2],"dateTab":2,"dateFrom":1459036800000,"dateTo":1459555200000,"showColCountry":true,"showColCurrency":true,"showColImpact":true,"showColPrevious":true,"showColForecast":true,"width":"100%","height":"500","adv":"popup"}};</script><script type="text/javascript" src="https://freeserv-static.dukascopy.com/2.0/core.js"></script>
+            <script type="text/javascript">DukascopyApplet = {"type":"interest_rate_calendar","params":{"showHeader":false,"tableBorderColor":"#D92626","delta":true,"changed":true,"nameType":2,"width":"100%","height":"450","adv":"popup"}};</script><script type="text/javascript" src="https://freeserv-static.dukascopy.com/2.0/core.js"></script>
+            <script type="text/javascript">DukascopyApplet = {"type":"complex_converter","params":{"header":false,"tab":0,"tabSelectorColor":"#ff0000","chartLineWidth":"1","chartCheckpoints":false,"sliderAnimation":"float","tabsAnimation":"vertical","amount":"100","numberOfDays":90,"currencyA":"EUR","currencyB":"USD","type":"bid","dateType":0,"date":1459272852613,"textColor":"#1954aa","ccTabChartColor":"#4678e6","hrCurrencyA":"EUR","hrCurrencyB1":"USD","hrCurrencyB2":"AUD","hrCurrencyB3":"CAD","hrCurrencyB4":"CHF","startType":0,"startDays":"90","start":1451354400000,"endType":0,"end":1459133999999,"frequency":"daily","currencyB1Color":"#4678e6","currencyB2Color":"#2ca563","currencyB3Color":"#cb0000","currencyB4Color":"#36aed5","tableHighlightColor":"#fffafa","liveCurrency":"EUR","liveBorderColor":"#D92626","liveHighlightColor":"#fffafa","width":"100%","height":"650","adv":"popup"}};</script><script type="text/javascript" src="https://freeserv-static.dukascopy.com/2.0/core.js"></script>
+            <script type="text/javascript">DukascopyApplet = {"type":"technical_analysis","params":{"showHeader":false,"tableBorderColor":"#D92626","availableInstruments":"l:EUR/USD,USD/JPY,GBP/USD,EUR/JPY,GBP/JPY,USD/CAD,XAU/USD,AUD/USD,USD/CHF,NZD/USD,E_Brent,E_SandP-500,E_DJE50XX,E_N225Jap,BTC/USD","instrument":"EUR/USD","period":["6","8","10","11","13","16","17","18"],"width":"100%","height":"340","adv":"popup"}};</script><script type="text/javascript" src="https://freeserv-static.dukascopy.com/2.0/core.js"></script>
+            <script type="text/javascript">DukascopyApplet = {"type":"chart","params":{"showUI":true,"showTabs":true,"showParameterToolbar":true,"showOfferSide":true,"allowInstrumentChange":true,"allowPeriodChange":true,"allowOfferSideChange":true,"showAdditionalToolbar":true,"showDetachButton":true,"presentationType":"candle","axisX":true,"axisY":true,"legend":true,"timeline":true,"showDateSeparators":true,"showZoom":true,"showScrollButtons":true,"showAutoShiftButton":true,"crosshair":true,"borders":false,"theme":"Pastelle","uiColor":"#000","availableInstruments":"l:","instrument":"EUR/USD","period":"7","offerSide":"BID","timezone":0,"live":true,"panLock":false,"width":"100%","height":"600","adv":"popup"}};</script><script type="text/javascript" src="https://freeserv-static.dukascopy.com/2.0/core.js"></script>
+            <script type="text/javascript">DukascopyApplet = {"type":"economic_calendar_new","params":{"showHeader":false,"tableBorderColor":"#D92626","defaultTimezone":0,"defaultCountries":"c:AU,CA,CH,CN,EU,GB,JP,NZ,US,DE,FR,IT,ES","impacts":[1,2],"dateTab":2,"dateFrom":1459036800000,"dateTo":1459555200000,"showColCountry":true,"showColCurrency":true,"showColImpact":true,"showColPrevious":true,"showColForecast":true,"width":"100%","height":"500","adv":"popup"}};</script><script type="text/javascript" src="https://freeserv-static.dukascopy.com/2.0/core.js"></script>
+  
+            <script src="https://www.benzinga.com/widgets.js"></script><div class="bz-widget" data-name="deficit"></div><div style="text-align: center; width: 100%; font-size: 14px;"> <a href="https://www.benzinga.com" rel="noopener" target="_blank" style="color: #6a6d78; text-decoration: none">  
+        </section>
+    </main>
+
+    <!-- Rodapé da página -->
+    <footer class="footer">
+        <!-- Informações de contato -->
+        <div class="contact">
+            <h3>Contact Us</h3>
+            <p class="color-gray">Email: contact@me.finance.com</p>
+            <p class="color-gray">Phone: +1 (123) 456-7890</p>
+        </div>
+        <!-- Links para redes sociais -->
+        <div class="social">
+            <h3>Follow Us</h3>
+            <p class="color-gray">Twitter: @MEFinance</p>
+            <p class="color-gray">LinkedIn: ME.Finance</p>
+        </div>
+    </footer>
+</body>
+</html>

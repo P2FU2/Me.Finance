@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Metadata e título da página -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Me.Finance|Cadastro</title>
+
+    <!-- Estilos e scripts da página -->
+    <link rel="stylesheet" type="text/css" href="/css/signup.css">
+    <script src="/views/script.js"></script>
+    <link rel="icon" href="/images/me.ico" type="image/meicon">
+</head>
+<body>
+
+    <!-- Cabeçalho da página -->
+    <header>
+        <!-- Logotipo da empresa -->
+        <img src="/images/logo.jpeg" alt="Logo" class="logo">
+        <h1>ME. Finance</h1>
+
+        <!-- Barra de navegação -->
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="/login" class="nav-link">Login</a></li>
+                <li class="nav-item"><a href="/economy" class="nav-link">Economy</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2>Cadastro</h2>
+
+    <!-- Exibir erros de cadastro -->
+    <div class="alert alert-danger" role="alert">
+        <span class="ErrorMessage"></span>
+    </div>
+
+    <!-- Formulário de cadastro -->
+    <form action="/signup" method="POST">
+      <label for="username">Usuário:</label><br>
+      <input id="username" name="username" type="text" required /><br />
+      <label for="email">Email:</label><br>
+      <input id="email" name="email" type="email" required /><br />
+      <label for="password">Senha:</label><br>
+      <input id="password" name="password" type="password" required /><br />
+      <input type="submit" value="Cadastrar" />
+    </form>
+
+    <p>
+      Já possui uma conta? <a href="/login">Faça login aqui</a>.
+    </p>
+
+    <!-- Rodapé da página -->
+    <footer class="footer flex flex-space-between flex-center bg-dark-gray color-white">
+        <!-- Informações de contato -->
+        <div class="contact">
+            <h3>Contact Us</h3>
+            <p>Email: contact@me.finance.com</p>
+            <p>Phone: +1 (123) 456-7890</p>
+        </div>
+
+        <!-- Links para redes sociais -->
+        <div class="social">
+            <h3>Follow Us</h3>
+            <p>Twitter: @MEFinance</p>
+            <p>LinkedIn: ME.Finance</p>
+        </div>
+    </footer>
+</body>
+</html>

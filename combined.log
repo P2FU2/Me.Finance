@@ -1,0 +1,179 @@
+{"level":"info","message":"Servidor rodando em http://localhost:3001","service":"Me.Finance-app"}
+{"level":"info","message":"Servidor rodando em http://localhost:3001","service":"Me.Finance-app"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Servidor rodando em http://localhost:3001","service":"Me.Finance-app","timestamp":"2023-08-25 19:24:51"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: Not Found","service":"Me.Finance-app","timestamp":"2023-08-25 19:26:23"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Servidor rodando em http://localhost:3001","service":"Me.Finance-app","timestamp":"2023-08-25 21:46:48"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Servidor rodando em http://localhost:3001","service":"Me.Finance-app","timestamp":"2023-08-25 21:56:47"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: Not Found","service":"Me.Finance-app","timestamp":"2023-08-25 21:57:13"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Servidor rodando em http://localhost:3001","service":"Me.Finance-app","timestamp":"2023-08-25 22:01:46"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: Not Found","service":"Me.Finance-app","timestamp":"2023-08-25 22:02:12"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Servidor rodando em http://localhost:3001","service":"Me.Finance-app","timestamp":"2023-08-25 22:18:16"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: Not Found","service":"Me.Finance-app","timestamp":"2023-08-25 22:18:32"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Servidor rodando em http://localhost:3001","service":"Me.Finance-app","timestamp":"2023-08-25 22:27:18"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: Not Found","service":"Me.Finance-app","timestamp":"2023-08-25 22:27:22"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: Not Found","service":"Me.Finance-app","timestamp":"2023-08-25 22:27:23"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: Not Found","service":"Me.Finance-app","timestamp":"2023-08-25 22:36:04"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: Not Found","service":"Me.Finance-app","timestamp":"2023-08-25 22:36:22"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Servidor rodando em http://localhost:3000","service":"Me.Finance-app","timestamp":"2023-08-25 22:40:54"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Servidor rodando em http://localhost:3000","service":"Me.Finance-app","timestamp":"2023-08-25 22:56:59"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: Not Found","service":"Me.Finance-app","timestamp":"2023-08-25 22:57:05"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: Not Found","service":"Me.Finance-app","timestamp":"2023-08-25 22:57:10"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Servidor rodando em http://localhost:3000","service":"Me.Finance-app","timestamp":"2023-08-25 23:07:30"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: CORS policy violation","service":"Me.Finance-app","timestamp":"2023-08-25 23:07:34"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: CORS policy violation","service":"Me.Finance-app","timestamp":"2023-08-25 23:07:39"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: CORS policy violation","service":"Me.Finance-app","timestamp":"2023-08-25 23:07:50"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: CORS policy violation","service":"Me.Finance-app","timestamp":"2023-08-25 23:07:55"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: CORS policy violation","service":"Me.Finance-app","timestamp":"2023-08-25 23:08:06"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: CORS policy violation","service":"Me.Finance-app","timestamp":"2023-08-25 23:08:13"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: CORS policy violation","service":"Me.Finance-app","timestamp":"2023-08-25 23:08:28"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: CORS policy violation","service":"Me.Finance-app","timestamp":"2023-08-25 23:08:43"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: CORS policy violation","service":"Me.Finance-app","timestamp":"2023-08-25 23:08:48"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: CORS policy violation","service":"Me.Finance-app","timestamp":"2023-08-25 23:08:53"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: CORS policy violation","service":"Me.Finance-app","timestamp":"2023-08-25 23:09:02"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: CORS policy violation","service":"Me.Finance-app","timestamp":"2023-08-25 23:09:13"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: CORS policy violation","service":"Me.Finance-app","timestamp":"2023-08-25 23:09:23"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: CORS policy violation","service":"Me.Finance-app","timestamp":"2023-08-25 23:09:32"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: CORS policy violation","service":"Me.Finance-app","timestamp":"2023-08-25 23:09:37"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: CORS policy violation","service":"Me.Finance-app","timestamp":"2023-08-25 23:09:42"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: CORS policy violation","service":"Me.Finance-app","timestamp":"2023-08-25 23:09:47"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: CORS policy violation","service":"Me.Finance-app","timestamp":"2023-08-25 23:09:53"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: CORS policy violation","service":"Me.Finance-app","timestamp":"2023-08-25 23:09:58"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: CORS policy violation","service":"Me.Finance-app","timestamp":"2023-08-25 23:10:03"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: CORS policy violation","service":"Me.Finance-app","timestamp":"2023-08-25 23:10:13"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: CORS policy violation","service":"Me.Finance-app","timestamp":"2023-08-25 23:10:18"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: CORS policy violation","service":"Me.Finance-app","timestamp":"2023-08-25 23:10:28"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: CORS policy violation","service":"Me.Finance-app","timestamp":"2023-08-25 23:10:34"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: CORS policy violation","service":"Me.Finance-app","timestamp":"2023-08-25 23:10:39"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: CORS policy violation","service":"Me.Finance-app","timestamp":"2023-08-25 23:10:44"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: CORS policy violation","service":"Me.Finance-app","timestamp":"2023-08-25 23:10:54"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: CORS policy violation","service":"Me.Finance-app","timestamp":"2023-08-25 23:10:59"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: CORS policy violation","service":"Me.Finance-app","timestamp":"2023-08-25 23:11:04"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: CORS policy violation","service":"Me.Finance-app","timestamp":"2023-08-25 23:11:11"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: CORS policy violation","service":"Me.Finance-app","timestamp":"2023-08-25 23:11:16"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: CORS policy violation","service":"Me.Finance-app","timestamp":"2023-08-25 23:11:31"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: CORS policy violation","service":"Me.Finance-app","timestamp":"2023-08-25 23:11:36"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: CORS policy violation","service":"Me.Finance-app","timestamp":"2023-08-25 23:11:41"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: CORS policy violation","service":"Me.Finance-app","timestamp":"2023-08-25 23:11:53"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: CORS policy violation","service":"Me.Finance-app","timestamp":"2023-08-25 23:11:58"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: CORS policy violation","service":"Me.Finance-app","timestamp":"2023-08-25 23:12:03"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: CORS policy violation","service":"Me.Finance-app","timestamp":"2023-08-25 23:12:13"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: CORS policy violation","service":"Me.Finance-app","timestamp":"2023-08-25 23:12:19"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: CORS policy violation","service":"Me.Finance-app","timestamp":"2023-08-25 23:12:24"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: CORS policy violation","service":"Me.Finance-app","timestamp":"2023-08-25 23:12:29"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: CORS policy violation","service":"Me.Finance-app","timestamp":"2023-08-25 23:12:34"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: CORS policy violation","service":"Me.Finance-app","timestamp":"2023-08-25 23:12:39"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: CORS policy violation","service":"Me.Finance-app","timestamp":"2023-08-25 23:12:44"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: CORS policy violation","service":"Me.Finance-app","timestamp":"2023-08-25 23:12:49"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: CORS policy violation","service":"Me.Finance-app","timestamp":"2023-08-25 23:12:54"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: CORS policy violation","service":"Me.Finance-app","timestamp":"2023-08-25 23:12:59"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: CORS policy violation","service":"Me.Finance-app","timestamp":"2023-08-25 23:13:04"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Servidor rodando em http://localhost:3000","service":"Me.Finance-app","timestamp":"2023-08-25 23:35:07"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: Not Found","service":"Me.Finance-app","timestamp":"2023-08-25 23:35:17"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: Not Found","service":"Me.Finance-app","timestamp":"2023-08-25 23:35:28"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: Not Found","service":"Me.Finance-app","timestamp":"2023-08-25 23:35:32"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: Not Found","service":"Me.Finance-app","timestamp":"2023-08-25 23:35:36"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: Not Found","service":"Me.Finance-app","timestamp":"2023-08-25 23:35:39"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: CORS policy violation","service":"Me.Finance-app","timestamp":"2023-08-25 23:35:44"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: Not Found","service":"Me.Finance-app","timestamp":"2023-08-25 23:35:44"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: Not Found","service":"Me.Finance-app","timestamp":"2023-08-25 23:35:44"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: Not Found","service":"Me.Finance-app","timestamp":"2023-08-25 23:35:47"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: Not Found","service":"Me.Finance-app","timestamp":"2023-08-25 23:35:49"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Servidor rodando em http://localhost:3000","service":"Me.Finance","timestamp":"2023-08-25 23:49:01"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Servidor rodando em http://localhost:3000","service":"Me.Finance","timestamp":"2023-08-25 23:53:46"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: Not Found","service":"Me.Finance","timestamp":"2023-08-25 23:54:10"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: Not Found","service":"Me.Finance","timestamp":"2023-08-25 23:54:10"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: Not Found","service":"Me.Finance","timestamp":"2023-08-25 23:54:10"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Servidor rodando em http://localhost:3000","service":"Me.Finance","timestamp":"2023-08-25 23:55:10"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Servidor rodando em http://localhost:3000","service":"Me.Finance","timestamp":"2023-08-25 23:57:11"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Conexão ao banco de dados estabelecida.","service":"Me.Finance","timestamp":"2023-08-25 23:58:08"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: ER_BAD_FIELD_ERROR: Unknown column 'role' in 'field list'","service":"Me.Finance","timestamp":"2023-08-25 23:58:08"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: Not Found","service":"Me.Finance","timestamp":"2023-08-25 23:58:08"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: Not Found","service":"Me.Finance","timestamp":"2023-08-25 23:58:13"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: Not Found","service":"Me.Finance","timestamp":"2023-08-25 23:58:15"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Servidor rodando em http://localhost:3000","service":"Me.Finance","timestamp":"2023-08-26 00:06:31"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Conexão ao banco de dados estabelecida.","service":"Me.Finance","timestamp":"2023-08-26 00:11:58"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: ER_BAD_FIELD_ERROR: Unknown column 'role' in 'field list'","service":"Me.Finance","timestamp":"2023-08-26 00:11:58"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: Not Found","service":"Me.Finance","timestamp":"2023-08-26 00:15:10"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: Not Found","service":"Me.Finance","timestamp":"2023-08-26 00:15:10"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: Not Found","service":"Me.Finance","timestamp":"2023-08-26 00:15:19"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: Not Found","service":"Me.Finance","timestamp":"2023-08-26 00:19:22"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: Not Found","service":"Me.Finance","timestamp":"2023-08-26 00:21:04"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: Not Found","service":"Me.Finance","timestamp":"2023-08-26 00:22:24"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Servidor rodando em http://localhost:3000","service":"Me.Finance","timestamp":"2023-08-26 00:22:33"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Servidor rodando em http://localhost:3000","service":"Me.Finance","timestamp":"2023-08-26 00:39:35"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro ao buscar dados do clima: getaddrinfo ENOTFOUND api.openweathermap.org","service":"Me.Finance","timestamp":"2023-08-26 03:04:18"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Conexão ao banco de dados estabelecida.","service":"Me.Finance","timestamp":"2023-08-26 03:27:43"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: ER_BAD_FIELD_ERROR: Unknown column 'role' in 'field list'","service":"Me.Finance","timestamp":"2023-08-26 03:27:43"}
+{"level":"\u001b[31merror\u001b[39m","message":"Senha fraca. Use uma combinação de letras, números e símbolos.","service":"Me.Finance","timestamp":"2023-08-26 03:55:19"}
+{"level":"\u001b[31merror\u001b[39m","message":"Senha fraca. Use uma combinação de letras, números e símbolos.","service":"Me.Finance","timestamp":"2023-08-26 03:55:31"}
+{"level":"\u001b[31merror\u001b[39m","message":"Senha fraca. Use uma combinação de letras, números e símbolos.","service":"Me.Finance","timestamp":"2023-08-26 03:56:43"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Servidor rodando em http://localhost:3000","service":"Me.Finance","timestamp":"2023-08-26 04:03:26"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Conexão ao banco de dados estabelecida.","service":"Me.Finance","timestamp":"2023-08-26 04:03:47"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro ao verificar o banco de dados: ER_BAD_FIELD_ERROR: Unknown column 'email' in 'where clause'","service":"Me.Finance","timestamp":"2023-08-26 04:03:47"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Servidor rodando em http://localhost:3000","service":"Me.Finance","timestamp":"2023-08-26 04:09:01"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Conexão ao banco de dados estabelecida.","service":"Me.Finance","timestamp":"2023-08-26 04:09:11"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: ER_BAD_FIELD_ERROR: Unknown column 'role' in 'field list'","service":"Me.Finance","timestamp":"2023-08-26 04:09:32"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Servidor rodando em http://localhost:3000","service":"Me.Finance","timestamp":"2023-08-26 04:31:43"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Conexão ao banco de dados estabelecida.","service":"Me.Finance","timestamp":"2023-08-26 04:32:12"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Senha correta.","service":"Me.Finance","timestamp":"2023-08-26 04:32:12"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Usuário não autenticado.","service":"Me.Finance","timestamp":"2023-08-26 04:32:12"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Servidor rodando em http://localhost:3000","service":"Me.Finance","timestamp":"2023-08-26 04:41:59"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Conexão ao banco de dados estabelecida.","service":"Me.Finance","timestamp":"2023-08-26 04:42:11"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Senha correta.","service":"Me.Finance","timestamp":"2023-08-26 04:42:11"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Usuário não autenticado.","service":"Me.Finance","timestamp":"2023-08-26 04:42:11"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Servidor rodando em http://localhost:3000","service":"Me.Finance","timestamp":"2023-08-26 04:51:54"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Conexão ao banco de dados estabelecida.","service":"Me.Finance","timestamp":"2023-08-26 04:52:05"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Senha correta.","service":"Me.Finance","timestamp":"2023-08-26 04:52:05"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Usuário autenticado com o papel: undefined","service":"Me.Finance","timestamp":"2023-08-26 04:52:05"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Acesso negado para usuário não administrador.","service":"Me.Finance","timestamp":"2023-08-26 04:52:05"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Servidor rodando em http://localhost:3000","service":"Me.Finance","timestamp":"2023-08-26 04:55:15"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Conexão ao banco de dados estabelecida.","service":"Me.Finance","timestamp":"2023-08-26 04:55:28"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Senha correta.","service":"Me.Finance","timestamp":"2023-08-26 04:55:28"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Usuário autenticado com o papel: user","service":"Me.Finance","timestamp":"2023-08-26 04:55:28"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Acesso negado para usuário não administrador.","service":"Me.Finance","timestamp":"2023-08-26 04:55:28"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Senha correta.","service":"Me.Finance","timestamp":"2023-08-26 04:56:12"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Usuário autenticado com o papel: user","service":"Me.Finance","timestamp":"2023-08-26 04:56:12"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Acesso negado para usuário não administrador.","service":"Me.Finance","timestamp":"2023-08-26 04:56:12"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Servidor rodando em http://localhost:3000","service":"Me.Finance","timestamp":"2023-08-26 04:56:21"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Conexão ao banco de dados estabelecida.","service":"Me.Finance","timestamp":"2023-08-26 04:56:29"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Senha correta.","service":"Me.Finance","timestamp":"2023-08-26 04:56:29"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Usuário autenticado com o papel: user","service":"Me.Finance","timestamp":"2023-08-26 04:56:29"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Acesso negado para usuário não administrador.","service":"Me.Finance","timestamp":"2023-08-26 04:56:29"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Senha correta.","service":"Me.Finance","timestamp":"2023-08-26 04:58:20"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Usuário autenticado com o papel: admin","service":"Me.Finance","timestamp":"2023-08-26 04:58:20"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Senha correta.","service":"Me.Finance","timestamp":"2023-08-26 04:59:02"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Usuário autenticado com o papel: admin","service":"Me.Finance","timestamp":"2023-08-26 04:59:02"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Usuário autenticado com o papel: admin","service":"Me.Finance","timestamp":"2023-08-26 05:00:12"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Usuário não autenticado.","service":"Me.Finance","timestamp":"2023-08-26 05:00:31"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Senha incorreta.","service":"Me.Finance","timestamp":"2023-08-26 05:02:34"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Senha correta.","service":"Me.Finance","timestamp":"2023-08-26 05:02:54"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Usuário autenticado com o papel: admin","service":"Me.Finance","timestamp":"2023-08-26 05:02:54"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Senha correta.","service":"Me.Finance","timestamp":"2023-08-26 05:08:29"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Usuário autenticado com o papel: admin","service":"Me.Finance","timestamp":"2023-08-26 05:08:29"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Senha correta.","service":"Me.Finance","timestamp":"2023-08-26 05:10:42"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Usuário autenticado com o papel: admin","service":"Me.Finance","timestamp":"2023-08-26 05:10:42"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Servidor rodando em http://localhost:3000","service":"Me.Finance","timestamp":"2023-08-26 05:19:08"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: err is not defined","service":"Me.Finance","timestamp":"2023-08-26 05:19:19"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: err is not defined","service":"Me.Finance","timestamp":"2023-08-26 05:19:24"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Usuário autenticado com o papel: admin","service":"Me.Finance","timestamp":"2023-08-26 05:19:26"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: err is not defined","service":"Me.Finance","timestamp":"2023-08-26 05:19:26"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: err is not defined","service":"Me.Finance","timestamp":"2023-08-26 05:19:29"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Conexão ao banco de dados estabelecida.","service":"Me.Finance","timestamp":"2023-08-26 05:19:38"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Senha correta.","service":"Me.Finance","timestamp":"2023-08-26 05:19:38"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Usuário autenticado com o papel: admin","service":"Me.Finance","timestamp":"2023-08-26 05:19:38"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: err is not defined","service":"Me.Finance","timestamp":"2023-08-26 05:19:38"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: err is not defined","service":"Me.Finance","timestamp":"2023-08-26 05:19:41"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Usuário autenticado com o papel: admin","service":"Me.Finance","timestamp":"2023-08-26 05:19:46"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: err is not defined","service":"Me.Finance","timestamp":"2023-08-26 05:19:46"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Usuário autenticado com o papel: admin","service":"Me.Finance","timestamp":"2023-08-26 05:23:12"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: err is not defined","service":"Me.Finance","timestamp":"2023-08-26 05:23:12"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Usuário autenticado com o papel: admin","service":"Me.Finance","timestamp":"2023-08-26 05:23:20"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: err is not defined","service":"Me.Finance","timestamp":"2023-08-26 05:23:20"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Usuário autenticado com o papel: admin","service":"Me.Finance","timestamp":"2023-08-26 05:25:06"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: err is not defined","service":"Me.Finance","timestamp":"2023-08-26 05:25:06"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: err is not defined","service":"Me.Finance","timestamp":"2023-08-26 05:26:09"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Usuário autenticado com o papel: admin","service":"Me.Finance","timestamp":"2023-08-26 05:26:12"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: err is not defined","service":"Me.Finance","timestamp":"2023-08-26 05:26:12"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: err is not defined","service":"Me.Finance","timestamp":"2023-08-26 05:26:28"}
+{"level":"\u001b[36minfo\u001b[39m","message":"Usuário autenticado com o papel: admin","service":"Me.Finance","timestamp":"2023-08-26 05:26:30"}
+{"level":"\u001b[31merror\u001b[39m","message":"Erro: err is not defined","service":"Me.Finance","timestamp":"2023-08-26 05:26:30"}

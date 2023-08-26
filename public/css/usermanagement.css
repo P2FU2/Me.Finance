@@ -1,7 +1,6 @@
 /* ==========================================================================
-   Base and Reset Styles
+   Base and Reset Styles (copiado de admin.css)
    ========================================================================== */
-
    * {
     box-sizing: border-box;
     margin: 0;
@@ -19,9 +18,8 @@ ul {
 }
 
 /* ==========================================================================
-   Header Styles
+   Header Styles (copiado de admin.css)
    ========================================================================== */
-
 header {
     display: flex;
     justify-content: space-between;
@@ -57,81 +55,52 @@ header {
 }
 
 /* ==========================================================================
-   Main Content Styles
+   User Management Styles
    ========================================================================== */
-
-.color-dark {
-    color: #333;
-}
-
-.color-gray {
-    color: #888;
-}
-
-.block-padding {
+.user-list {
     padding: 20px;
 }
 
-h2.center-align {
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.admin-panel {
-    display: flex;
-    gap: 20px;
-    padding: 20px;
-    align-items: start;
-}
-
-.sidebar {
-    flex: 1;
-    padding: 20px;
-}
-
-.admin-menu {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.admin-menu a {
-    padding: 10px;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-    background-color: rgb(255, 204, 0);
-    display: flex;
-    justify-content: center;
+.user-list table {
     width: 100%;
-    min-width: max-content;
+    border-collapse: collapse;
+    margin: 20px 0;
 }
 
-.admin-menu a:hover {
+.user-list th, .user-list td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.user-list th {
+    background-color: rgb(255, 204, 0);
+    color: white;
+}
+
+.user-list tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.user-list tr:hover {
+    background-color: #ddd;
+}
+
+.user-list a {
+    margin-right: 5px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgb(255, 204, 0);
+    transition: background-color 0.3s;
+}
+
+.user-list a:hover {
     background-color: rgba(255, 204, 0, 0.464);
 }
 
-.content {
-    flex: 3;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.admin-welcome-text {
-    margin-bottom: 20px;
-}
-
-iframe {
-    display: block;
-    margin: 10px 0;
-    max-width: 100%;
-}
 /* ==========================================================================
-   Footer Styles
+   Footer Styles (copiado de admin.css)
    ========================================================================== */
-
 footer {
     display: flex;
     justify-content: space-between;
@@ -148,9 +117,8 @@ footer {
 }
 
 /* ==========================================================================
-   Responsive Styles
+   Responsive Styles (copiado de admin.css)
    ========================================================================== */
-
 @media (max-width: 768px) {
     header, footer {
         flex-direction: column;
@@ -159,9 +127,5 @@ footer {
     .nav-links {
         flex-direction: column;
         gap: 10px;
-    }
-
-    .admin-panel {
-        flex-direction: column;
     }
 }

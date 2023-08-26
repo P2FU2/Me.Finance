@@ -344,6 +344,41 @@ app.get('/admin', ensureAuthenticated, (req, res) => {
   res.render('admin', data);
 });
 
+// Rota para a página User Management
+app.get('/admin/usermanagement', ensureAuthenticated, (req, res) => {
+  
+  // Exemplo: lista fictícia de usuários
+  const users = [
+    { id: 1, username: 'user1' },
+    { id: 2, username: 'user2' }
+  ];
+  
+  const data = {
+      isAuthenticated: req.session.authenticated,
+      users: users  // Adicione os usuários aqui
+  };
+
+  res.render('usermanagement', data);
+});
+
+
+// Rota para a página Reports
+app.get('/admin/reports', ensureAuthenticated, (req, res) => {
+  const data = {
+      isAuthenticated: req.session.authenticated
+  };
+  res.render('reports', data);
+});
+
+// Rota para a página Settings
+app.get('/admin/settings', ensureAuthenticated, (req, res) => {
+  const data = {
+      isAuthenticated: req.session.authenticated
+  };
+  res.render('settings', data);
+});
+
+
 
 // Rota para a página de economia
 app.get('/economy', (req, res) => {

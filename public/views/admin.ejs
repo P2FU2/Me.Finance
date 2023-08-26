@@ -10,7 +10,6 @@
 </head>
 <body>
 
-
     <!-- Cabeçalho da página -->
     <header class="flex flex-space-between flex-center bg-black-transparent block-padding">
         <!-- Logotipo -->
@@ -32,20 +31,38 @@
         </nav>
     </header>
 
-<h2 class="center-align font-large color-dark">Admin Panel</h2>
-<div class="admin-panel flex box-shadow-light">
-    <div class="sidebar box-shadow-medium bg-white rounded-medium">
-        <ul class="admin-menu flex flex-column no-list-style">
-            <li class="font-medium color-dark"><a href="#" class="no-text-decoration color-dark transition-bg">Dashboard</a></li>
-            <li class="font-medium color-dark"><a href="#" class="no-text-decoration color-dark transition-bg">User Management</a></li>
-            <li class="font-medium color-dark"><a href="#" class="no-text-decoration color-dark transition-bg">Reports</a></li>
-            <li class="font-medium color-dark"><a href="#" class="no-text-decoration color-dark transition-bg">Settings</a></li>
-        </ul>
+    <h2 class="center-align font-large color-dark">Admin Panel</h2>
+    <div class="admin-panel flex box-shadow-light">
+        <div class="sidebar box-shadow-medium bg-white rounded-medium">
+            <ul class="admin-menu flex flex-column no-list-style">
+                <li class="font-medium color-dark"><a href="/admin" class="no-text-decoration color-dark transition-bg">Dashboard</a></li>
+                <li class="font-medium color-dark"><a href="/admin/usermanagement" class="no-text-decoration color-dark transition-bg">User Management</a></li>
+                <li class="font-medium color-dark"><a href="/admin/reports" class="no-text-decoration color-dark transition-bg">Reports</a></li>
+                <li class="font-medium color-dark"><a href="/admin/settings" class="no-text-decoration color-dark transition-bg">Settings</a></li>
+            </ul>
+            
+        </div>
+        <div class="content bg-white box-shadow-medium rounded-medium">
+            <p class="font-medium color-dark">Welcome to the Admin Panel! Here you can manage users, view reports, and change settings.</p>
+            <iframe frameBorder='0' scrolling='no' width='800' height='420' src='https://api.stockdio.com/visualization/financial/charts/v1/ComparePrices?app-key=D084F93ECBBD46298ED211AEEDBC6049&symbol=AAPL&compare=FB;MSFT&indices=SPX&includeCompetitors=true&palette=Relief&showLogo=Title&animate=true&googleFont=true'></iframe>
+            
+            <script>
+                if (typeof(stockdio_events) == "undefined") {
+                   stockdio_events = true;
+                   var stockdio_eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+                   var stockdio_eventer = window[stockdio_eventMethod];
+                   var stockdio_messageEvent = stockdio_eventMethod == "attachEvent" ? "onmessage" : "message";
+                   stockdio_eventer(stockdio_messageEvent, function (e) {
+                      if (typeof(e.data) != "undefined" && typeof(e.data.method) != "undefined") {
+                         eval(e.data.method);
+                      }
+                   },false);
+                }
+             </script>
+             
+             <iframe id='st_2ca91660e4f04a14bef9709f35726820' frameBorder='0' scrolling='no' width='800' height='100%' src='https://api.stockdio.com/visualization/financial/charts/v1/PricesChangeBoard?app-key=D084F93ECBBD46298ED211AEEDBC6049&symbols=AAPL;MSFT;GOOG;HPQ&includeLogo=false&palette=Relief&title=Watch%20List&onload=st_2ca91660e4f04a14bef9709f35726820'></iframe>
+        </div>
     </div>
-    <div class="content bg-white box-shadow-medium rounded-medium">
-        <p class="font-medium color-dark">Welcome to the Admin Panel! Here you can manage users, view reports, and change settings.</p>
-    </div>
-</div>
 
     <!-- Rodapé da página -->
     <footer class="flex flex-space-between flex-center bg-dark-gray block-padding">

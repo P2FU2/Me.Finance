@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Me.Finance | Reports</title>
+    <link rel="stylesheet" type="text/css" href="/css/admin.css">
+    <link rel="icon" href="/images/me.ico" type="image/meicon">
+</head>
+<body>
+    <!-- Cabeçalho da página -->
+    <header>
+        <img src="/images/logo.jpeg" alt="Logo" class="logo">
+        <h1>ME. Finance</h1>
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="/" class="nav-link">Home</a></li>
+                <li><a href="/admin" class="nav-link">Admin</a></li>
+                <li><a href="/economy" class="nav-link">Economy</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2 class="center-align">Financial Reports</h2>
+    <div class="admin-panel">
+        <div class="content">
+            <p class="admin-welcome-text">Explore comprehensive reports on various financial metrics and trends.</p>
+            
+            <!-- Aqui você pode inserir gráficos, tabelas, etc. relacionados a relatórios financeiros. -->
+            <!-- Por exemplo, um iFrame com um gráfico de ações, como você tinha em seu admin.ejs: -->
+            <iframe frameBorder='0' scrolling='no' width='800' height='420' src='https://api.stockdio.com/visualization/financial/charts/v1/ComparePrices?app-key=D084F93ECBBD46298ED211AEEDBC6049&symbol=AAPL&compare=FB;MSFT&indices=SPX&includeCompetitors=true&palette=Relief&showLogo=Title&animate=true&googleFont=true'></iframe>
+        </div>
+    </div>
+
+    <!-- Rodapé da página -->
+    <footer>
+        <div class="contact">
+            <h3>Contact Us</h3>
+            <p>Email: contact@me.finance.com</p>
+            <p>Phone: +1 (123) 456-7890</p>
+        </div>
+        <div class="social">
+            <h3>Follow Us</h3>
+            <p>Twitter: @MEFinance</p>
+            <p>LinkedIn: ME.Finance</p>
+        </div>
+    </footer>
+</body>
+</html>

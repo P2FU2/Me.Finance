@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Me.Finance|User Management</title>
+    <link rel="stylesheet" type="text/css" href="/css/usermanagement.css">
+    <link rel="icon" href="/images/me.ico" type="image/meicon">
+    <script src="/views/script.js"></script>
+</head>
+<body>
+
+    <!-- Cabeçalho da página -->
+    <header class="flex flex-space-between flex-center bg-black-transparent block-padding">
+        <!-- Logotipo -->
+        <img src="/images/logo.jpeg" alt="Logo" class="logo">
+        <h1 class="color-white">ME. Finance</h1>
+        <!-- Barra de navegação -->
+        <nav class="navbar">
+            <ul class="nav-links flex no-list-style">
+                <li class="nav-item"><a href="/admin" class="nav-link color-white">Back to Admin Panel</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2 class="center-align font-large color-dark">User Management</h2>
+    
+    <!-- Lista de usuários -->
+    <div class="user-list block-padding">
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Username</th>
+                    <th>Email</th>
+                    <th>Role</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <% users.forEach(user => { %>
+                    <tr>
+                        <td><%= user.id %></td>
+                        <td><%= user.username %></td>
+                        <td><%= user.email %></td>
+                        <td><%= user.role %></td>
+                        <td>
+                            <a href="/edit-user/<%= user.id %>">Edit</a> | 
+                            <a href="/delete-user/<%= user.id %>">Delete</a>
+                        </td>
+                    </tr>
+                <% }); %>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Rodapé da página -->
+    <footer class="flex flex-space-between flex-center bg-dark-gray block-padding">
+        <!-- Informações de contato -->
+        <div class="contact">
+            <h3 class="color-white">Contact Us</h3>
+            <p class="color-gray">Email: contact@me.finance.com</p>
+            <p class="color-gray">Phone: +1 (123) 456-7890</p>
+        </div>
+        <!-- Links para redes sociais -->
+        <div class="social">
+            <h3 class="color-white">Follow Us</h3>
+            <p class="color-gray">Twitter: @MEFinance</p>
+            <p class="color-gray">LinkedIn: ME.Finance</p>
+        </div>
+    </footer>
+    
+</body>
+</html>

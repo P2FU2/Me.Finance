@@ -1,14 +1,36 @@
-# ===========================================
-# Projeto Servidor e Painel Administrativo
-# ===========================================
+# ====================================================
+# Projeto Servidor e Painel Administrativo ME.Finance
+# ===================================================
 
-Este projeto consiste em um servidor Express.js que fornece uma API para um painel administrativo. O painel permite que os administradores adicionem, editem e removam postagens. O servidor se conecta a um banco de dados MySQL para armazenar as postagens.
+Este projeto consiste em um servidor Express.js que fornece uma API para um painel administrativo. O painel permite que os administradores adicionem, editem e removam postagens. O servidor se conecta a um banco de dados MySQL para armazenar as postagens. 
 
 ## Como Iniciar o Servidor
 
 * Abra o terminal e navegue até o diretório do projeto.
 * Execute o comando `node index.js` para iniciar o servidor.
 * O servidor estará rodando na porta 3000. Abra um navegador e acesse `http://localhost:3000` para ver a mensagem "Servidor funcionando".
+
+## Configuração Local
+
+Para rodar este projeto localmente, você precisará definir as seguintes variáveis no arquivo `.env`:
+
+```unicorn
+# Definindo o ambiente (desenvolvimento, teste, produção, etc.)
+NODE_ENV=development
+
+# Segredo usado para assinar o ID da sessão
+SESSION_SECRET=your_session_secret_here
+
+# Informações de conexão com o banco de dados
+DB_HOST=your_database_host_here
+DB_USER=your_database_user_here
+DB_PASS=your_database_password_here
+DB_NAME=your_database_name_here
+
+# Outras variáveis que você pode precisar para sua aplicação
+WEATHER_API_KEY=your_weather_api_key_here
+```
+
 
 ## Como Parar o Servidor
 
@@ -40,7 +62,7 @@ Para tornar o servidor acessível pela internet, você pode usar serviços como 
 ## TUTORIAL DE DESENVOLVIMENTO WEB COM NODE.JS
 ## ===========================================
 
-Este tutorial é baseado em uma série de interações e problemas enfrentados durante o desenvolvimento de um projeto web. Vamos explorar desde o básico até a solução de problemas mais complexos.
+Este tutorial é baseado em uma série de interações durante o desenvolvimento do  projeto web. Vamos explorar desde o básico até a solução de problemas mais complexos.
 
 ## ÍNDICE
 
@@ -64,7 +86,7 @@ Antes de começar, é fundamental configurar corretamente o ambiente de desenvol
 * $ npm init
 
 
-Ao longo do nosso projeto, você vai precisar de vários pacotes. Instale-os conforme necessário usando o npm.
+Ao longo do projeto, você vai precisar de vários pacotes. Instale-os conforme necessário usando o npm.
 * Por exemplo:
 * $ npm install express ejs mysql
 
@@ -85,9 +107,9 @@ Durante o desenvolvimento, enfrentamos alguns problemas com a conexão. Aqui est
 
 ## 3. AUTENTICAÇÃO DE USUÁRIO
 
-A autenticação é uma parte crucial de muitos aplicativos web. No nosso caso, usamos o Passport.js para autenticar os usuários.
+A autenticação é uma parte crucial de muitos aplicativos web. No caso, foi usado o Passport.js para autenticar os usuários.
 
-* Armazene as senhas de forma segura. No nosso caso, usamos o bcrypt para hashear as senhas.
+* Armazene as senhas de forma segura. No caso, foi usado o bcrypt para hashear as senhas.
 * Use sessões para manter os usuários logados.
 * Garanta que as rotas protegidas verifiquem se o usuário está autenticado.
 
@@ -98,11 +120,6 @@ Ao longo do desenvolvimento, vários erros podem surgir. Aqui estão alguns que 
 * "message is not defined" em EJS:
 - Sempre passe todas as variáveis que seu template EJS espera, mesmo que sejam nulas ou strings vazias.
 
-## 5. DICAS E MELHORES PRÁTICAS
-
-* Estruture seu projeto de forma clara. Separe a lógica de negócios, rotas, configurações, etc.
-* Comente seu código! Isso ajuda outros desenvolvedores (e você no futuro) a entender o que cada parte faz.
-* Mantenha-se atualizado. As tecnologias evoluem rapidamente. O que é uma prática padrão hoje pode não ser amanhã.
 
 ## 6. ESTILO DO CSS
 
@@ -162,7 +179,65 @@ Boa codificação!
 
 ## Para que serve
 
-O package.json e o package-lock.json são arquivos cruciais em projetos Node.js. Eles servem para diferentes propósitos e são importantes para o gerenciamento de dependências e configuração do projeto.
+### Bibliotecas e Dependências:
+
+* **express**:
+  * Framework Web: Um framework web minimalista para Node.js, utilizado para construir aplicações web e APIs.
+  * Middleware: Oferece uma maneira de adicionar funcionalidades ao servidor, como tratamento de requisições e respostas.
+
+* **router (express.Router())**:
+  * Roteamento: Usado para definir rotas e manipuladores de rota em aplicações Express.
+
+* **mysql**:
+  * Cliente MySQL: Permite que o Node.js se conecte e interaja com bancos de dados MySQL.
+
+* **express-session**:
+  * Gerenciamento de Sessão: Middleware para gerenciar sessões de usuário em aplicações Express.
+
+* **passport**:
+  * Autenticação: Framework para autenticar usuários em aplicações Node.js.
+
+* **passport-local**:
+  * Estratégia Local: Permite autenticação usando nome de usuário e senha.
+
+* **bcryptjs**:
+  * Hashing de Senha: Biblioteca para hashear e verificar senhas de forma segura.
+
+* **path**:
+  * Manipulação de Caminho: Módulo Node.js nativo para manipular caminhos de arquivos.
+
+* **connect-flash**:
+  * Mensagens Flash: Middleware para exibir mensagens temporárias, como erros de autenticação.
+
+* **axios**:
+  * Cliente HTTP: Usado para fazer requisições a APIs externas.
+
+* **express-mysql-session**:
+  * Armazenamento de Sessão: Permite que as sessões do Express sejam armazenadas em um banco de dados MySQL.
+
+* **cookie-parser**:
+  * Manipulação de Cookies: Middleware para ler e escrever cookies.
+
+* **nodemailer**:
+  * Envio de E-mail: Facilita o envio de e-mails a partir de aplicações Node.js.
+
+* **helmet**:
+  * Segurança: Ajuda a proteger aplicações Express de algumas vulnerabilidades da web conhecidas.
+
+* **cors**:
+  * Compartilhamento de Recursos entre Origens: Middleware para habilitar o CORS em aplicações Express.
+
+* **morgan**:
+  * Logging de Requisições: Middleware para registrar detalhes das requisições HTTP.
+
+* **winston**:
+  * Logging Avançado: Fornece funções de logging avançadas e personalizáveis.
+
+* **validator**:
+  * Validação de Strings: Utilitário para validar e limpar strings.
+
+* **zxcvbn**:
+  * Avaliação de Senha: Biblioteca para medir a força das senhas e fornecer feedback.
 
 * **package.json**:
 * Metadados do Projeto: Contém informações básicas sobre o projeto, como nome, versão e descrição.
@@ -181,7 +256,7 @@ O package.json e o package-lock.json são arquivos cruciais em projetos Node.js.
 ├── combined.log
 ├── error.log
 ├── node_modules
-── package-lock.json
+├── package-lock.json
 ├── package.json
 ├── public
 │   ├── css
@@ -190,10 +265,19 @@ O package.json e o package-lock.json são arquivos cruciais em projetos Node.js.
 │   │   ├── economy.css
 │   │   ├── index.css
 │   │   ├── login.css
-│   │   └── signup.css
+│   │   ├── reports.css
+│   │   ├── settings.css
+│   │   ├── signup.css
+│   │   └── usermanagement.css
 │   ├── db
 │   │   └── mydb.sql
 │   ├── images
+│   │   ├── assets
+│   │   │   ├── admin.png
+│   │   │   ├── criesenha.png
+│   │   │   ├── economy.png
+│   │   │   ├── home.png
+│   │   │   └── login.png
 │   │   ├── logo.jpeg
 │   │   └── me.ico
 │   └── views
@@ -203,8 +287,11 @@ O package.json e o package-lock.json são arquivos cruciais em projetos Node.js.
 │       ├── forgotpass.ejs
 │       ├── index.ejs
 │       ├── login.ejs
+│       ├── reports.ejs
 │       ├── script.js
-│       └── signup.ejs
+│       ├── settings.ejs
+│       ├── signup.ejs
+│       └── usermanagement.ejs
 ├── readme.md
 └── tools
     └── criadordehash.js
@@ -212,10 +299,16 @@ O package.json e o package-lock.json são arquivos cruciais em projetos Node.js.
 ## IMAGENS
 
 ![Descrição da Imagem](public/images/assets/admin.png)
+
 ![Descrição da Imagem](public/images/assets/login.png)
+
 ![Descrição da Imagem](public/images/assets/home.png)
+
 ![Descrição da Imagem](public/images/assets/economy.png)
+
 ![Descrição da Imagem](public/images/assets/criesenha.png)
+
+![Descrição da Imagem](public/images/assets/user.png)
 
 
 

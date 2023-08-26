@@ -176,6 +176,7 @@ O package.json e o package-lock.json são arquivos cruciais em projetos Node.js.
 * Otimização de Instalação: O package-lock.json permite que o npm instale pacotes de forma mais eficiente.
 
 ## Tree ou Árvore do Projeto:
+```plaintext
 ├── app.js
 ├── combined.log
 ├── error.log
@@ -207,3 +208,14 @@ O package.json e o package-lock.json são arquivos cruciais em projetos Node.js.
 ├── readme.md
 └── tools
     └── criadordehash.js
+```
+## IMAGENS
+
+![Descrição da Imagem](public/images/assets/admin.png)
+![Descrição da Imagem](public/images/assets/login.png)
+![Descrição da Imagem](public/images/assets/home.png)
+![Descrição da Imagem](public/images/assets/economy.png)
+![Descrição da Imagem](public/images/assets/criesenha.png)
+
+
+
